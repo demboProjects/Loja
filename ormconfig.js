@@ -6,7 +6,7 @@ module.exports = {
     "type": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "postgres",
+    "username": `${process.env.USERNAME}`,
     "password": `${process.env.PASSWORD}`,
     "database": "dembo",
     "entities": ["entity/*.ts"],

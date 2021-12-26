@@ -21,7 +21,7 @@ class Client {
     email: string
 
     @Column()
-    adress: string
+    andress: string
 
     @CreateDateColumn()
     created_at: Date
