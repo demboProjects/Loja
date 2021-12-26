@@ -22,7 +22,7 @@ export class CreateClients1639758763018 implements MigrationInterface {
                 },
 
                 {
-                    name: "adress",
+                    name: "andress",
                     type: "varchar"
                 },
                 {
