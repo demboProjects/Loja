@@ -9,7 +9,7 @@ module.exports = {
     "username": `${process.env.DB_USERNAME}`,
     "password": `${process.env.DB_PASSWORD}`,
     "database": "dembo",
-    "entities": ["entity/*.ts"],
+    "entities": ["src/entity/*.ts"],
     "migrationsTableName": "migrations",
     "migrations": ["src/database/migrations/*.ts"],
     "cli": {
